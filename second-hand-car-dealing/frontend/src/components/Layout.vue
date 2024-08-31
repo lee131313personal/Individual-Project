@@ -10,8 +10,12 @@
         <a-menu-item key="mine">
           <UserOutlined />
           <span class="nav-text"><router-link to="/management/mine">Mine</router-link></span>
-
         </a-menu-item>
+        <a-menu-item key="viewAllVehicle">
+          <UserOutlined />
+          <span class="nav-text"><router-link to="/">View All Vehicles</router-link></span>
+        </a-menu-item>
+
       </a-menu>
     </a-layout-sider>
     <a-layout :style="{ marginLeft: '220px', height: '100vh' }">

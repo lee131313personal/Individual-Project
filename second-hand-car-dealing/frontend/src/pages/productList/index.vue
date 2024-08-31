@@ -3,7 +3,7 @@
 		<a-layout-header class="header">
 			<a-flex justify="space-between" align="center" style="height: 100%;">
 				<img src="../../assets/logo.png" width="50px" class="logo"></img>
-				<a-button v-if="isLogin" type="primary" @click="goto('/management')">管理列表</a-button>
+				<a-button v-if="isLogin" type="primary" @click="goto('/management')">Manage List</a-button>
 				<a-button v-else :icon="h(LoginOutlined)" type="primary" @click="goto('/login')">Log in</a-button>
 			</a-flex>
 
